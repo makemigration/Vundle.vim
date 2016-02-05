@@ -45,6 +45,7 @@
    请将以下加在 `.vimrc` 方可使用Vundle. 删掉你不需要的插件, 这些只是用做示例.
 
    ```vim
+   set shell=/bin/bash            "  装好Vundle.vim后，如果不加这行会提示call plugininstall#begin()错误。
    set nocompatible              " 去除VI一致性,必须
    filetype off                  " 必须
 
